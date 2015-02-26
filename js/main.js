@@ -5,11 +5,11 @@ var $input = $('#todo');
 $form.on('submit', function (eventObject) {
     eventObject.preventDefault();
     
-    $theCircle.css('list', $input.val());
+    $rectangle.css('list', $input.val());
     
     var $theH2 = $('<h2>');
     $theH2.html($input.val());
-    $theCircle.append($theH2);
+    $rectangle.append($theH2);
     
     $input.val('');
 });
