@@ -19,8 +19,16 @@ html {
 }
 
 .rectangle {
-    width: 250px;
-    height: 80px;
+    width: 265px;
+    height: 10%;
     background-color: white; 
     position: absolute
+}
+
+button {
+    color: gray;
+    border-color:darkgray;
+    border-width: 2px;
+    width: 60px;
+    height:30px;
 }
