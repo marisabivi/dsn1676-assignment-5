@@ -43,13 +43,38 @@ label {
     list-style-type: none;
 }
 
+.done {
+    text-decoration: line-through;
+}
+
 .button {
-    color: gray;
-    border-color: darkgray;
+    color: grey;
+    border-color: darkgrey;
     border-width: 2px;
     width: 40px;
     height:30px;
     position: absolute;
+}
+
+.xbutton {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+    border-radius: .5em;
+    background-color: lightgray;
+    height: 30px;
+    width: 20px;
+}
+
+.xbutton:hover {
+    color: lightgrey;
+    background-color: dimgrey;
+}
+
+.remove {
+    float: right;
+    overflow: hidden;
 }
 
 .box {

@@ -14,9 +14,17 @@ $form.on('submit', function (eventObject) {
     var $li = $('<li>');
     $li.html($input.val());
     
-    $ul.append($li);
-    
     $input.val('');
+
+    $ul.on('click', 'li', function () {
+    $('this').toggleClass('done');
+
+    
+    var $inputRemove.on = $('<button class="remove xbutton">x</button>');
+        
+        $inputRemove.on('click', function () {
+            $li.remove('li');
+    });
+                         
 });
 
-$input.val('');
