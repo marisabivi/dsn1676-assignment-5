@@ -18,20 +18,25 @@ html {
  box-sizing: inherit;   
 }
 
-.todo {
-    padding: 60%;  
+.input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px
+}
+
+.box {
+    background-color: lightgrey;
+    margin: 3em;
+    padding: 1em;
+    width: 50%;
 }
 
 form {
     margin-left: 10%;
 }
 
-
-.rectangle {
-    width: 265px;
-    height: 10%;
-    background-color: white; 
-    position: absolute
+.ol {
+    background-color: white;
 }
 
 button {
