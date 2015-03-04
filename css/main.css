@@ -31,15 +31,19 @@ html {
     width: 50%;
 }
 
-form {
-    margin-left: 10%;
+.ul {
+    margin: 2em;
+    padding: 1em;
+    text-align: left;
+    list-style-type: none;
 }
 
-.ol {
+.li {
     background-color: white;
+    list-style-type: none;
 }
 
-button {
+.button {
     color: gray;
     border-color:darkgray;
     border-width: 2px;
