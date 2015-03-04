@@ -25,6 +25,10 @@ $form.on('submit', function (eventObject) {
         $inputRemove.on('click', function () {
             $li.remove('li');
     });
-                         
+    
+    
+    $li.append($inputRemove);
+    $ul.append($li);
+    $input.val(''); 
 });
 
