@@ -26,7 +26,7 @@ $form.on('submit', function (eventObject) {
             $li.remove('li');
     });
 
-     $ul.on('click', function () {
+     $li.on('click', function () {
         $(this).addClass ('done');
     });
     
