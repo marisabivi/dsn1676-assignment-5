@@ -18,6 +18,15 @@ html {
  box-sizing: inherit;   
 }
 
+.todo {
+    padding: 60%;  
+}
+
+form {
+    margin-left: 10%;
+}
+
+
 .rectangle {
     width: 265px;
     height: 10%;
