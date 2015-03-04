@@ -20,7 +20,3 @@ $form.on('submit', function (eventObject) {
 });
 
 $input.val('');
-
-$ul.on('click', 'li', function () {
-    $('this').toggleClass('done');
-});
