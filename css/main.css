@@ -20,7 +20,7 @@ html {
 
 .input {
     height: 30px;
-    width: 89%;
+    width: 51.7em;
     border-radius: 5px;
     border-color: black;
     margin: 0;
@@ -40,6 +40,7 @@ label {
     text-align: left;
     background-color: white;
     overflow: hidden;
+    width: 34.5em;
     list-style-type: none;
 }
 
@@ -80,9 +81,9 @@ label {
 
 .box {
     background-color: #e0dfdf;
-    margin: 3em;
+    margin-left: 20%;
     padding: 1em;
-    width: 80%;
+    width: 37em;
     border-radius: 15px;
     border: 1px solid #636161;
     overflow: hidden;
